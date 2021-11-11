@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class Exercicio4 {
+	
+
+	public static void main(String[] args) {
+		/*
+		4. Escreva um sistema que leia três números inteiros e positivos (A, B, C) e calcule a 
+		seguinte expressão: 
+		*/
+			// variaveis
+			int a, b, c, d, r, s;
+		    System.out.print("Escreva um numero inteiro e positivo: ");
+		    a = Scanner.nextInt();
+			
+			// input
+			Scanner tec =  novo  Scanner ( Sistema . In);
+			Sistema . para fora . print ( " Digite um valor para A: " );
+			a = tec . nextInt ();
+			
+			Sistema . para fora . print ( " Digite um valor para B: " );
+			b = tec . nextInt ();
+			
+			Sistema . para fora . print ( " Digite um valor para C: " );
+			c = tec . nextInt ();
+			
+			// calculo
+			r =  matemática . pow (a + b, 2 );
+			s =  matemática . pow (b + c, 2 );
+			d = (r + s) / 2 ;
+			
+			// saida
+			Sistema . para fora . printf ( " O resultado da expressão é% .2f " , d);
+		}
+
+	}
+
